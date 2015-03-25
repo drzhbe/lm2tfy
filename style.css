@@ -1,0 +1,7 @@
+.cursor {
+	display: none;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	transition: all 3s;
+}
