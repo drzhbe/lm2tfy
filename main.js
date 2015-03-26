@@ -4,6 +4,7 @@ var typingInterval;
 (function() {
 	// возьмем запрос из урла
 	var q = window.location.search.split('=')[1];
+	console.log('q', q);
 	if (!q) return input.focus();
 	q = decodeURI(q);
 
