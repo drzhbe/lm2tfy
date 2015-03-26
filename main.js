@@ -1,4 +1,4 @@
-var input = document.querySelectorAll('.q')[0];
+var input = document.querySelectorAll('.searchBar__input')[0];
 var typingInterval;
 
 (function() {
@@ -40,7 +40,7 @@ var typingInterval;
 
 document.addEventListener('keyup', function(e) {
 	if (e.keyCode === 13) {
-		var input = document.querySelectorAll('.q')[0];
+		var input = document.querySelectorAll('.searchBar__input')[0];
 		var result = document.querySelectorAll('.result')[0];
 		result.innerText = window.location.origin + window.location.pathname + '?q=' + input.value;
 	}

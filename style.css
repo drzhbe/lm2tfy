@@ -5,3 +5,56 @@
 	top: 100px;
 	transition: all 3s;
 }
+.searchBar {
+	position: relative;
+	width: 400px;
+	height: 48px;
+  	background: rgba(48,48,48,.9);
+  	border-radius: 3px;
+  	margin: 0;
+}
+	.searchBar__logo {
+		position: absolute;
+		top: 8px;
+		left: 12px;
+		width: 32px;
+		height: 32px;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBmaWxsPSIjQTNDQzRFIiBkPSJNMzIsMTZjMC0xLjk2OS0wLjIzOS0zLjU5Mi0wLjg4OS01LjMzM0MzMC45MzgsMTYuMzk4LDI0Ljc1MywyMS4wNjQsMjEuMzMzLDI0aDguODg5IEMzMS4xMTEsMjEuMzM0LDMyLDE4LjcxOSwzMiwxNiBNMjUuNzc4LDMuNTU2QzIzLjA2NywxLjQ0NCwxOS43MDEsMCwxNiwwQzcuMTYzLDAsMCw3LjE2NCwwLDE2czcuMTYzLDE2LDE2LDE2IGM0LjA0NywwLDguMTgyLTEuNTIzLDExLTRIMTV2LTRjNi45NzktNi4wNjgsMTEuNjY3LTkuNzc4LDExLjY2Ny0xMy4zMzNjMC0xLjQ3My0xLjAzNC0zLjU1Ni0zLjU1OS0zLjU1NiBjLTEuOTk5LDAtMy41NDksMS43NzgtMy41NTIsNi4yMjJoLTQuNDQ1QzE0LjA5NCw3LjcyMSwxNy40OSwzLjA3MiwyMy4zMTIsMy4wNzJDMjQuMjE0LDMuMDcyLDI1LjAxNiwzLjM1NSwyNS43NzgsMy41NTYiLz48L3N2Zz4=");
+	}
+	.searchBar__input {
+		position: absolute;
+		top: 8px;
+		left: 52px;
+		width: 288px;
+		height: 32px;
+		border-radius: 2px;
+		border: none;
+	  	padding: 5px 28px 3px 12px;
+	}
+	.searchBar__input:hover {
+	  	box-shadow: 0 2px 6px rgba(0,0,0,.15)inset,0 0 2px 2px rgba(13,165,213,.7);
+	}
+	.searchBar__submit {
+		position: absolute;
+		top: 8px;
+		right: 12px;
+		width: 44px;
+		height: 32px;
+	  	background-color: #00a8d5;
+	  	border-radius: 2px;
+  	  	box-shadow: 0 -2px 0 rgba(0,0,0,.1)inset;
+  	  	text-align: center;
+	}
+	.searchBar__submit::before {
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDE1IDIwIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0iI2ZmZiIgZD0iTTE0LjUzMiwxOS4yMjJsLTEuMzksMC42NzFjLTAuNTQ4LDAuMjY1LTEuMjE3LDAuMDUyLTEuNDkzLTAuNDc2IGwtMi45NjEtNS42MzdsLTAuNzAyLDAuMTE4QzcuNjU2LDEzLjk0Nyw3LjMyOCwxNCw2Ljk4NSwxNEMzLjExOSwxNCwwLDEwLjg2NiwwLDdjMC0zLjg2NiwzLjExOS03LDYuOTg1LTdzNywzLjEzNCw3LDcgYzAsMS45NjEtMC44MTIsMy43MjktMi4xMTEsNWwtMC4wNzcsMC4wNzhsMy4wMjksNS44MDVDMTUuMTAzLDE4LjQxMSwxNS4wODEsMTguOTU3LDE0LjUzMiwxOS4yMjJ6IE0xMS45ODUsN2MwLTIuNzYxLTIuMjM5LTUtNS01IHMtNSwyLjIzOS01LDVjMCwyLjc2MiwyLjIzOSw1LDUsNVMxMS45ODUsOS43NjIsMTEuOTg1LDd6Ii8+PC9zdmc+");
+		width: 15px;
+		height: 20px;
+		vertical-align: middle;
+		display: inline-block;
+		content: '';
+	}
+	.searchBar__submit:hover {
+		background-image: linear-gradient(to bottom,#41d0ff,#0fa5d7);
+  		box-shadow: 0 1px rgba(255,255,255,.2)inset;
+	}
+
