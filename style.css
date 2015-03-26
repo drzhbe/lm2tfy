@@ -52,6 +52,7 @@
 		vertical-align: middle;
 		display: inline-block;
 		content: '';
+		margin: 6px;
 	}
 	.searchBar__submit:hover {
 		background-image: linear-gradient(to bottom,#41d0ff,#0fa5d7);
